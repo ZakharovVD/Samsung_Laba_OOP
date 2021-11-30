@@ -109,6 +109,7 @@ class main{
         *   Интерфейсы не используются в целях экономии размеров кода.
         */
         Two_Wheel_Bicycle cj = new Two_Wheel_Bicycle(17);
+        cj.buyBicycle();
         cj.assemble();
         cj.use();
         cj.repair();
